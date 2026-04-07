@@ -66,6 +66,9 @@ Although all raw data and exact values remain confidential, the project delivere
 - 20–35% improvement in predictive accuracy using SVR compared to linear regression
 - 15–25% increase in model robustness after systematic outlier detection and assumption validation
 
+
+ML frameworks such as TensorFlow, PyTorch, Scikit-learn
+
 These gains demonstrate the value of combining statistics, machine learning, and experimental design to optimize complex laboratory automation systems.
 comparison of model performance across liquid types and parameter ranges
 
