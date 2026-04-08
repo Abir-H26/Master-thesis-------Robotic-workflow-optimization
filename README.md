@@ -55,6 +55,38 @@
   <li><strong>Diagnosed and mitigated robotic failure modes</strong> (e.g., dripping, incomplete aspiration, air intake) through parameter optimization.</li>
 </ul>
 
+<pre>
++-----------------------------+
+|  Define Pipetting Goals     |
+|  (volume, liquid type, etc.)|
++--------------+--------------+
+               |
+               v
++-----------------------------+
+|  Select Robot Parameters    |
+|  - aspiration speed         |
+|  - dispense speed           |
+|  - tip type / volume        |
++--------------+--------------+
+               |
+               v
++-----------------------------+
+|  Program / Configure Robot  |
++--------------+--------------+
+               |
+               v
++-----------------------------+
+|  Execute Pipetting Runs     |
++--------------+--------------+
+               |
+               v
++-----------------------------+
+|  Monitor Behavior & Issues  |
+|  (drips, air intake, etc.)  |
++--------------+--------------+
+
+</pre>
+
 <h3>Laboratory Preparation of Solutions</h3>
 <ul>
   <li><strong>Prepared controlled liquid formulations</strong> spanning a wide range of viscosities and surface tensions.</li>
@@ -62,6 +94,31 @@
   <li><strong>Performed biophysical measurements</strong> (viscosity, surface tension) to generate high‑quality input features for modeling.</li>
   <li><strong>Ensured formulation reproducibility</strong> through standardized preparation and documentation workflows.</li>
 </ul>
+
+<pre>
++-------------------------------+
+|  Define target property space |
+|  (viscosity, surface tension) |
++---------------+---------------+
+                |
+                v
++-------------------------------+
+|  Design formulation set       |
+|  (low / medium / high ranges) |
++---------------+---------------+
+                |
+                v
++-------------------------------+
+|  Prepare solutions in lab     |
+|  (standardized protocols)     |
++---------------+---------------+
+                |
+                v
++-------------------------------+
+|  Measure properties           |
+|  (viscosity, density, etc.)         |
++---------------+---------------+
+</pre>
 
 <h3>Statistical & Machine‑Learning Modeling</h3>
 <ul>
