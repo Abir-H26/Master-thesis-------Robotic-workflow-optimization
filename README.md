@@ -46,6 +46,45 @@
 <h2>My Contributions</h2>
 
 <h3>Robotic Platform work</h3>
+
+<pre>
++-----------------------------+
+|  Define Pipetting Goals     |
+|  (volume, liquid type, etc.)|
++--------------+--------------+
+               |
+               v
++-----------------------------+
+|  Select Robot Parameters    |
+|  - aspiration speed         |
+|  - dispense speed           |
+|  - tip type / volume        |
++--------------+--------------+
+               |
+               v
++-----------------------------+
+|  Program / Configure Robot  |
++--------------+--------------+
+               |
+               v
++-----------------------------+
+|  Execute Pipetting Runs     |
++--------------+--------------+
+               |
+               v
++-----------------------------+
+|  Monitor Behavior & Issues  |
+|  (drips, air intake, etc.)  |
++--------------+--------------+
+               |
+               v
++-----------------------------+
+|  Refine Parameters          |
+|  (iterative optimization)   |
++-----------------------------+
+</pre>
+
+
 <ul>
   <li><strong>Configured and operated</strong> a high‑throughput automated liquid‑handling robot used in biologics development.</li>
   <li><strong>Selected, tuned, and validated pipetting parameters</strong> such as aspiration/dispense speeds, volumes, tip types.</li>
@@ -55,6 +94,39 @@
 </ul>
 
 <h3>Laboratory preparation of solutions</h3>
+
+<pre>
++-------------------------------+
+|  Define Target Property Space |
+|  (viscosity, surface tension) |
++---------------+---------------+
+                |
+                v
++-------------------------------+
+|  Design Formulation Set       |
+|  (low / medium / high ranges) |
++---------------+---------------+
+                |
+                v
++-------------------------------+
+|  Prepare Solutions in Lab     |
+|  (standardized protocols)     |
++---------------+---------------+
+                |
+                v
++-------------------------------+
+|  Measure Properties           |
+|  (viscosity, σ, etc.)         |
++---------------+---------------+
+                |
+                v
++-------------------------------+
+|  Validate & Document          |
+|  (reproducibility, logging)   |
++-------------------------------+
+</pre>
+
+
 <ul>
   <li><strong>Prepared controlled liquid formulations</strong> spanning a wide range of liquid physical prooperties</li>
   <li><strong>Adjusted compositions</strong> to isolate the effect of specific biophysical properties on pipetting performance.</li>
@@ -135,12 +207,91 @@
 </p>
 
 <h3>Design of Experiments (DoE)</h3>
+
+<pre>
++-------------------------------+
+|  Identify Factors & Ranges    |
+|  - robot parameters           |
+|  - liquid properties          |
++---------------+---------------+
+                |
+                v
++-------------------------------+
+|  Build DoE Plan               |
+|  (fractional factorial)       |
++---------------+---------------+
+                |
+                v
++-------------------------------+
+|  Map DoE Runs to Robot        |
+|  (parameter sets per run)     |
++---------------+---------------+
+                |
+                v
++-------------------------------+
+|  Execute Runs on Robot        |
+|  (automated pipetting)        |
++---------------+---------------+
+                |
+                v
++-------------------------------+
+|  Record Outputs               |
+|  (precision, errors, etc.)    |
++-------------------------------+
+</pre>
+
 <p>
   A two‑level fractional factorial design was used to efficiently explore main effects and
   interactions while reducing experimental load.
 </p>
 
 <h3>Statistical & Machine‑Learning modeling</h3>
+
+<pre>
++-------------------------------+
+|  Raw Experimental Data        |
++---------------+---------------+
+                |
+                v
++-------------------------------+
+|  Data Cleaning                |
+|  - outlier detection          |
+|  - consistency checks         |
++---------------+---------------+
+                |
+                v
++-------------------------------+
+|  Feature Engineering          |
+|  - transforms (e.g. log)      |
+|  - derived features           |
++---------------+---------------+
+                |
+                v
++-------------------------------+
+|  Statistical Modeling         |
+|  - linear regression          |
+|  - effect & interaction       |
++---------------+---------------+
+                |
+                v
++-------------------------------+
+|  Machine Learning (SVR)       |
+|  - nonlinear modeling         |
+|  - CV + hyperparameter tuning |
++---------------+---------------+
+                |
+                v
++-------------------------------+
+|  Model Comparison & Validation|
+|  (metrics, residuals, etc.)   |
++---------------+---------------+
+                |
+                v
++-------------------------------+
+|  Final Insights & Guidelines  |
++-------------------------------+
+</pre>
+
 
 <h4>1) Linear Regression</h4>
 <ul>
