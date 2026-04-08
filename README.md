@@ -76,6 +76,44 @@
 
 <h2>Methodology Overview</h2>
 
+<pre>
++------------------------+
+|  Robotic Platform      |
+|  setup & tuning        |
++-----------+------------+
+            |
+            v
++------------------------+
+|  Lab preparation       |
+|  controlled liquids    |
++-----------+------------+
+            |
+            v
++------------------------+
+|  Automated experiments |
+|  pipetting on robot    |
++-----------+------------+
+            |
+            v
++------------------------+
+|  Data Collection       |
+|  volumes, errors, etc. |
++-----------+------------+
+            |
+            v
++------------------------+
+|  Modeling & Analysis   |
+|  (Statisticss + ML)    |
++-----------+------------+
+            |
+            v
++------------------------+
+|  Insights & Guidelines |
+|  robust pipetting      |
++------------------------+
+</pre>
+
+
 <h3>Experimental space definition</h3>
 <p>
   I defined a multidimensional feature space combining:
