@@ -45,7 +45,7 @@
 
 <h2>My Contributions</h2>
 
-<h3>Robotic Platform Work</h3>
+<h3>Robotic Platform work</h3>
 <ul>
   <li><strong>Configured and operated</strong> a high‑throughput automated liquid‑handling robot used in biologics development.</li>
   <li><strong>Selected, tuned, and validated pipetting parameters</strong> such as aspiration/dispense speeds, volumes, tip types.</li>
@@ -54,7 +54,7 @@
   <li><strong>Diagnosed and mitigated robotic failure modes</strong> (e.g., dripping, incomplete aspiration, air intake) through parameter optimization.</li>
 </ul>
 
-<h3>Laboratory Preparation of Solutions</h3>
+<h3>Laboratory preparation of solutions</h3>
 <ul>
   <li><strong>Prepared controlled liquid formulations</strong> spanning a wide range of liquid physical prooperties</li>
   <li><strong>Adjusted compositions</strong> to isolate the effect of specific biophysical properties on pipetting performance.</li>
@@ -62,7 +62,7 @@
   <li><strong>Ensured formulation reproducibility</strong> through standardized preparation and documentation workflows.</li>
 </ul>
 
-<h3>Statistical & Machine‑Learning Modeling</h3>
+<h3>Statistical & Machine‑Learning modeling</h3>
 <ul>
   <li><strong>Designed the experimental plan</strong> using fractional factorial DoE to efficiently explore main effects and interactions.</li>
   <li><strong>Built linear regression models</strong> to quantify effect sizes, interactions, and statistical significance.</li>
@@ -76,7 +76,7 @@
 
 <h2>Methodology Overview</h2>
 
-<h3>Experimental Space Definition</h3>
+<h3>Experimental space definition</h3>
 <p>
   I defined a multidimensional feature space combining:
 </p>
@@ -89,7 +89,7 @@
   performance.
 </p>
 
-<h3>Parameter Selection</h3>
+<h3>Parameter selection</h3>
 <p>
   From a large inventory of robot settings, I retained only parameters with a direct physical
   impact on fluid flow. Representative liquids were prepared to span a controlled range of
@@ -102,7 +102,7 @@
   interactions while reducing experimental load.
 </p>
 
-<h3>Statistical & Machine‑Learning Modeling</h3>
+<h3>Statistical & Machine‑Learning modeling</h3>
 
 <h4>1) Linear Regression</h4>
 <ul>
