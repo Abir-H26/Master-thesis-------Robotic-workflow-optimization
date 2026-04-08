@@ -58,7 +58,7 @@
 <ul>
   <li><strong>Prepared controlled liquid formulations</strong> spanning a wide range of liquid physical prooperties</li>
   <li><strong>Adjusted compositions</strong> to isolate the effect of specific biophysical properties on pipetting performance.</li>
-  <li><strong>Performed biophysical measurements</strong> (viscosity, surface tension) to generate high‑quality input features for modeling.</li>
+  <li><strong>Performed biophysical measurements</strong> to generate high‑quality input features for modeling.</li>
   <li><strong>Ensured formulation reproducibility</strong> through standardized preparation and documentation workflows.</li>
 </ul>
 
@@ -82,7 +82,7 @@
 </p>
 <ul>
   <li><strong>Programmable pipetting parameters</strong> (aspiration/dispense dynamics, volumes, tip sizes)</li>
-  <li><strong>Liquid descriptors</strong> (viscosity, surface tension, density)</li>
+  <li><strong>Liquid descriptors</strong> </li>
 </ul>
 <p>
   This ensured that the dataset captured the dominant physical mechanisms affecting pipetting
@@ -93,7 +93,7 @@
 <p>
   From a large inventory of robot settings, I retained only parameters with a direct physical
   impact on fluid flow. Representative liquids were prepared to span a controlled range of
-  viscosities and surface tensions, enabling robust statistical and ML modeling.
+  physical liquid properties, enabling robust statistical and ML modeling.
 </p>
 
 <h3>Design of Experiments (DoE)</h3>
