@@ -123,12 +123,83 @@
 <h3>Statistical & Machine‑Learning Modeling</h3>
 <ul>
   <li><strong>Designed the experimental plan</strong> using fractional factorial DoE to efficiently explore main effects and interactions.</li>
-  <li><strong>Built linear regression models</strong> to quantify effect sizes, interactions, and statistical significance.</li>
+
+<pre>
++-------------------------------+
+|  Identify Factors & Ranges    |
+|  - robot parameters           |
+|  - liquid properties          |
++---------------+---------------+
+                |
+                v
++-------------------------------+
+|  Build DoE plan               |
+|  (fractional factorial)       |
++---------------+---------------+
+                |
+                v
++-------------------------------+
+|  Map DoE runs to robot        |
+|  (parameter sets per run)     |
++---------------+---------------+
+                |
+                v
++-------------------------------+
+|  Execute runs on robot        |
+|  (automated pipetting)        |
++---------------+---------------+
+                |
+                v
++-------------------------------+
+|  Record outputs               |
+|  (precision, errors, etc.)    |
++-------------------------------+
+</pre>
+<li><strong>Built linear regression models</strong> to quantify effect sizes, interactions, and statistical significance.</li>
   <li><strong>Implemented Support Vector Regression (SVR)</strong> to capture nonlinear relationships between liquid properties and robotic parameters.</li>
   <li><strong>Performed cross‑validation and hyperparameter tuning</strong> to ensure robust generalization.</li>
   <li><strong>Compared model performance</strong> across liquid types, parameter ranges, and modeling approaches.</li>
   <li><strong>Used ML frameworks</strong> such as Scikit‑learn (and compatible workflows with TensorFlow/PyTorch).</li>
 </ul>
+<pre>
++-------------------------------+
+|  Raw Experimental Data        |
++---------------+---------------+
+                |
+                v
++-------------------------------+
+|  Data Cleaning                |
+|  - outlier detection          |
+|  - consistency checks         |
++---------------+---------------+
+                |
+                v
++-------------------------------+
+|  Feature Engineering          |
+|  - transforms (e.g. log)      |
+|  - derived features           |
++---------------+---------------+
+                |
+                v
++-------------------------------+
+|  Statistical Modeling         |
+|  - linear regression          |
+|  - effect & interaction       |
++---------------+---------------+
+                |
+                v
++-------------------------------+
+|  Machine Learning (SVR)       |
+|  - nonlinear modeling         |
+|  - CV + hyperparameter tuning |
++---------------+---------------+
+                |
+                v
++-------------------------------+
+|  Model Comparison & Validation|
+|  (metrics, residuals, etc.)   |
++---------------+---------------+
+</pre>
 
 <hr />
 
