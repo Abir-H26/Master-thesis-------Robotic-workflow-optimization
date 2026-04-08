@@ -22,7 +22,7 @@
 <h2>Project Summary</h2>
 <p>
   Automated liquid handling is essential in biologics development, yet its performance degrades
-  significantly when handling viscous or surface‑active formulations. This project investigates
+  significantly when handling formulations with different physical liquid properties. This project investigates
   how liquid physical properties and robotic pipetting parameters jointly influence pipetting
   precision, and develops predictive models to improve reliability across diverse conditions.
 </p>
@@ -56,7 +56,7 @@
 
 <h3>Laboratory Preparation of Solutions</h3>
 <ul>
-  <li><strong>Prepared controlled liquid formulations</strong> spanning a wide range of viscosities and surface tensions.</li>
+  <li><strong>Prepared controlled liquid formulations</strong> spanning a wide range of liquid physical prooperties</li>
   <li><strong>Adjusted compositions</strong> to isolate the effect of specific biophysical properties on pipetting performance.</li>
   <li><strong>Performed biophysical measurements</strong> (viscosity, surface tension) to generate high‑quality input features for modeling.</li>
   <li><strong>Ensured formulation reproducibility</strong> through standardized preparation and documentation workflows.</li>
