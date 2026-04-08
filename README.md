@@ -48,7 +48,7 @@
 <h3>Robotic Platform Work</h3>
 <ul>
   <li><strong>Configured and operated</strong> a high‑throughput automated liquid‑handling robot used in biologics development.</li>
-  <li><strong>Selected, tuned, and validated pipetting parameters</strong> such as aspiration/dispense speeds, volumes, tip types, and mixing strategies.</li>
+  <li><strong>Selected, tuned, and validated pipetting parameters</strong> such as aspiration/dispense speeds, volumes, tip types.</li>
   <li><strong>Developed structured experimental protocols</strong> to ensure reproducibility and compatibility with statistical modeling.</li>
   <li><strong>Implemented systematic test campaigns</strong> across multiple liquid types and parameter combinations.</li>
   <li><strong>Diagnosed and mitigated robotic failure modes</strong> (e.g., dripping, incomplete aspiration, air intake) through parameter optimization.</li>
