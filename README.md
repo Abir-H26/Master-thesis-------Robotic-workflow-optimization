@@ -8,14 +8,15 @@
 </p>
 
 <p>
-  What remains is a clear demonstration of my contributions across:
+  What remains is a clear demonstration of my contributions across four complementary domains:
 </p>
 <ul>
-  <li><strong>Robotic automation</strong> — configuration, operation, and optimization of a liquid‑handling platform</li>
-  <li><strong>Laboratory formulation work</strong> — preparation and characterization of controlled liquid solutions</li>
-  <li><strong>Statistical engineering</strong> — experimental design, regression modeling, and inference</li>
-  <li><strong>Machine learning</strong> — nonlinear modeling and predictive performance optimization</li>
+  <li><strong>Robotic automation</strong> — configuration, operation, and optimization of an automated liquid‑handling platform</li>
+  <li><strong>Laboratory formulation work</strong> — preparation and biophysical characterization of controlled liquid solutions</li>
+  <li><strong>Design of Experiments (DoE)</strong> — construction and execution of a fractional factorial design to efficiently explore main effects and interactions</li>
+  <li><strong>Statistical and machine‑learning modeling</strong> — regression analysis, nonlinear modeling, and predictive performance optimization</li>
 </ul>
+
 
 <hr />
 
