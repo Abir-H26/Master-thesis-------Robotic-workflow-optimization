@@ -23,7 +23,7 @@
 <h2>Project Summary</h2>
 <p>
   Automated liquid handling is essential in biologics development, yet its performance degrades
-  significantly when handling viscous or surface‑active formulations. This project investigates
+  significantly when handling formulations with different physical properties. This project investigates
   how liquid physical properties and robotic pipetting parameters jointly influence pipetting
   precision, and develops predictive models to improve reliability across diverse conditions.
 </p>
@@ -89,7 +89,7 @@
 
 <h3>Laboratory Preparation of Solutions</h3>
 <ul>
-  <li><strong>Prepared controlled liquid formulations</strong> spanning a wide range of viscosities and surface tensions.</li>
+  <li><strong>Prepared controlled liquid formulations</strong> spanning a wide range of liquid physical properties.</li>
   <li><strong>Adjusted compositions</strong> to isolate the effect of specific biophysical properties on pipetting performance.</li>
   <li><strong>Performed biophysical measurements</strong> (viscosity, surface tension) to generate high‑quality input features for modeling.</li>
   <li><strong>Ensured formulation reproducibility</strong> through standardized preparation and documentation workflows.</li>
@@ -98,7 +98,6 @@
 <pre>
 +-------------------------------+
 |  Define target property space |
-|  (viscosity, surface tension) |
 +---------------+---------------+
                 |
                 v
@@ -116,7 +115,7 @@
                 v
 +-------------------------------+
 |  Measure properties           |
-|  (viscosity, density, etc.)         |
+|  (density, etc.)              |
 +---------------+---------------+
 </pre>
 
@@ -222,7 +221,7 @@
 <p>
   From a large inventory of robot settings, I retained only parameters with a direct physical
   impact on fluid flow. Representative liquids were prepared to span a controlled range of
-  viscosities and surface tensions, enabling robust statistical and ML modeling.
+  liquid physicql properties, enabling robust statistical and ML modeling.
 </p>
 
 <h3>Design of Experiments (DoE)</h3>
@@ -268,8 +267,8 @@
   quantitative improvements:
 </p>
 <ul>
-  <li><strong>52–64% improvement in precision</strong> for viscous liquids when increasing volume and tip size.</li>
-  <li><strong>50% reduction in required experiments</strong> through fractional factorial DoE.</li>
+  <li><strong>52–64% improvement in precision</strong> for particular liquids when increasing volume and tip size.</li>
+  <li><strong>50% reduction in required experiments</strong> through specific choice of DoE.</li>
   <li><strong>20–35% improvement in predictive accuracy</strong> using SVR compared to linear regression.</li>
   <li><strong>15–25% increase in model robustness</strong> after systematic outlier detection and assumption validation.</li>
 </ul>
