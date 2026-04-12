@@ -91,7 +91,7 @@
 <ul>
   <li><strong>Prepared controlled liquid formulations</strong> spanning a wide range of liquid physical properties.</li>
   <li><strong>Adjusted compositions</strong> to isolate the effect of specific biophysical properties on pipetting performance.</li>
-  <li><strong>Performed biophysical measurements</strong> (viscosity, surface tension) to generate high‑quality input features for modeling.</li>
+  <li><strong>Performed biophysical measurements</strong> to generate high‑quality input features for modeling.</li>
   <li><strong>Ensured formulation reproducibility</strong> through standardized preparation and documentation workflows.</li>
 </ul>
 
