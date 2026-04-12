@@ -210,7 +210,7 @@
 </p>
 <ul>
   <li><strong>Programmable pipetting parameters</strong> (aspiration/dispense dynamics, volumes, tip sizes)</li>
-  <li><strong>Liquid descriptors</strong> (viscosity, surface tension, density)</li>
+  <li><strong>Liquid descriptors</strong> (density, etc)</li>
 </ul>
 <p>
   This ensured that the dataset captured the dominant physical mechanisms affecting pipetting
